@@ -28,6 +28,8 @@ body {
 .gallery img {
     width: 100%;
     cursor: pointer;
+    width: 400;
+    height: 300;
     transition: transform 0.3s;
 }
 .gallery img:hover {

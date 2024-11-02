@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Photo Gallery</title>
-    <p>Click on image you wish to have selected</p>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
     <header>
@@ -19,12 +18,11 @@
         
     </section>
     <section class="gallery">
-        <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/w/o/WOPA160517_D056-resized.jpg?crop=864%2C0%2C1728%2C2304&wid=600&hei=800&scl=2.88" alt="Nature" class="image nature" width="350" height="400">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/New_York_City_%28New_York%2C_USA%29%2C_Empire_State_Building_--_2012_--_6448.jpg/375px-New_York_City_%28New_York%2C_USA%29%2C_Empire_State_Building_--_2012_--_6448.jpg" alt="City" class="image city" width="350" height="400">
+        <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/w/o/WOPA160517_D056-resized.jpg?crop=864%2C0%2C1728%2C2304&wid=600&hei=800&scl=2.88" alt="Nature" class="image nature">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/New_York_City_%28New_York%2C_USA%29%2C_Empire_State_Building_--_2012_--_6448.jpg/375px-New_York_City_%28New_York%2C_USA%29%2C_Empire_State_Building_--_2012_--_6448.jpg" alt="City" class="image city">
         <!-- More images with respective category classes -->
     </section>
     <div id="lightbox" class="lightbox hidden">
-        <h1>Selected Image</h1>
         <img id="lightbox-img" src="" alt="">
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
